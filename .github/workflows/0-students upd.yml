@@ -28,4 +28,4 @@ jobs:
       - name: Run update script
         env:
           GCP_SERVICE_ACCOUNT: ${{ secrets.GCP_SERVICE_ACCOUNT }}
-        run: python 0-student disbanding.py
+        run: python "0-student disbanding.py"
